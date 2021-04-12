@@ -11,6 +11,18 @@ Auto-Purge Emails Script
 5. At the top, click `Save`.
 6. At the top left, click `Untitled project` and enter a name for your script.
 
+## Create labels to filter your emails you want to be purge
+
+1. Open [Gmail](https://mail.google.com/).
+2. In the search box at the top, click the Down arrow.
+3. Enter your search criteria. If you want to check that your search worked correctly, see what emails show up by clicking Search.
+4. At the bottom of the search window, click `Create filter`.
+5. Choose `Apply the label`: and choose/create a label with the name you setup in the script. example:
+  . `Deleted after 10 days` will automatically delete emails with this label 10 days after been receipt.
+  . `Deleted after 30 days` will be deleted 30 days after been receipt.
+  . `Deleted after 90 days` will be deleted 90 days after been receipt.
+6. Click `Create filter`.
+
 ## Try it out
 
 1. Update the config in the editor to custom your labels and pruge schedule
